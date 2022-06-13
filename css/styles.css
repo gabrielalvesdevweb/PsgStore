@@ -1,0 +1,91 @@
+* {
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(10,60,97);
+    text-align: center;
+    height: 70px;
+    padding: 15px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+.container{
+    
+    padding: 50px;
+    min-height: 60vh;
+    background-color: #eee;
+}
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.produto-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.card{
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+
+}
+#img1{
+    background-image: url('../img/camisaAzuldoPsg.jpeg');
+}
+#img2{
+    background-image: url("../img/camisaNova.webp");
+}
+#img3{
+    background-image: url('../img/camisaAwayMasculina.webp');
+}
+#img4{
+    background-image: url('../img/caneleira.webp');
+}
+#img5{
+    background-image: url('../img/chineloPsg.webp');
+}
+#img6{
+    background-image: url('../img/moletomPreto.webp');
+}
+.btn{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #fff;
+    background-color: rgb(202, 54, 52);
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: rgb(138, 35, 34);
+}
+
+h3{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+div p{
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 4px;
+}
